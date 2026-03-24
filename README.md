@@ -64,8 +64,6 @@ Ideal value ≈ 8 for 8-bit images
 Higher entropy → stronger encryption
 📖 How to Use
 1️⃣ Clone the Repository
-git clone https://github.com/aehmidi/A-Content-Adaptive-Framework-for-High-Security-Image-Encryption.git
-cd A-Content-Adaptive-Framework-for-High-Security-Image-Encryption
 2️⃣ Install Dependencies
 pip install torch torchvision numpy opencv-python matplotlib pillow
 3️⃣ Prepare Your Image
