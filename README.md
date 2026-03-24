@@ -79,6 +79,4 @@ Install the required packages:
 
 ```bash
 pip install torch torchvision pillow numpy matplotlib opencv-python
-namics for High-Security Image and Video Encryption", *The Visual Computer*, 2026.
-
 
