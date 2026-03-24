@@ -83,14 +83,11 @@ Displays:
 Original image
 Encrypted image
 Decrypted image
-Prints:
-Entropy: 7.98
 6️⃣ Optional: Use as Function
 model = AdvancedLKM().to(device)
 model.eval()
 process_image("your_image.png", model)
 7️⃣ GPU Acceleration
-
 Automatically uses GPU if available:
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -108,8 +105,26 @@ Secure image transmission
 Medical image protection
 Military and surveillance systems
 IoT security
-📄 License
+📄 License : This project is for research and academic purposes.
 
-This project is for research and academic purposes.
+Voici un guide complet pour ton code, incluant instructions d’usage, dépendances, et explications des principaux algorithmes utilisés. Je vais structurer ça de manière claire et scientifique.
+
+1️⃣ Dépendances
+
+Avant d’exécuter le script, assure-toi d’avoir installé :
+
+pip install torch torchvision pillow matplotlib numpy
+torch / torchvision : PyTorch pour réseaux de neurones et modèles pré-entraînés (ResNet18 et ViT).
+Pillow (PIL) : Chargement et traitement des images.
+numpy : Calculs numériques et génération des séquences chaotiques.
+matplotlib : (optionnel ici) pour visualisation si nécessaire.
+
+⚠️ Note : ce code est conçu pour GPU (CUDA) si disponible. Sinon, il utilise CPU automatiquement.
+
+2️⃣ Usage Instructions
+Placer l’image que tu veux chiffrer dans le même dossier que le script.
+Modifier le chemin de l’image dans la variable :
+input_path = "image(D4).png"
+Lancer le script.
 
 ✍️ Author : Hmidi Alaeddine
