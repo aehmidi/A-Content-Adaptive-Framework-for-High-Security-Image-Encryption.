@@ -66,3 +66,18 @@ Install the required packages:
 
 ```bash
 pip install torch torchvision pillow numpy matplotlib opencv-python
+
+## ⚙️ Parameters & Configuration
+- `chaos_map_type`: Choose from ['logistic', 'tent', 'sine', 'henon', 'chebyshev']
+- `patch_size`: Patch size for ViT (default: 16)
+- `cnn_model`: CNN backbone (default: ResNet18)
+
+## 📝 Notes
+- Recommended image size: 256x256 or 512x512
+- Large images may increase processing time
+- GPU usage is highly recommended for faster key generation and encryption
+
+## 🔬 References
+H. Alaeddine, "Deep Content-Driven Key Generation via CNN–Transformer Fusion with Multi-Chaotic Dynamics for High-Security Image and Video Encryption", *The Visual Computer*, 2026.
+
+
