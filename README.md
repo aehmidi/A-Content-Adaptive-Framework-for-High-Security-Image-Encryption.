@@ -58,14 +58,6 @@ Chaos map is selected deterministically based on the deep key.
 
 **Decryption:** reverse XOR → inverse permutation → restores original image
 
----
-
-## 🔹 Dependencies
-
-Install the required packages:
-
-```bash
-pip install torch torchvision pillow numpy matplotlib opencv-python
 
 ## ⚙️ Parameters & Configuration
 - `chaos_map_type`: Choose from ['logistic', 'tent', 'sine', 'henon', 'chebyshev']
@@ -77,7 +69,16 @@ pip install torch torchvision pillow numpy matplotlib opencv-python
 - Large images may increase processing time
 - GPU usage is highly recommended for faster key generation and encryption
 
+
 ## 🔬 References
 H. Alaeddine, "Deep Content-Driven Key Generation via CNN–Transformer Fusion with Multi-Chaotic Dynamics for High-Security Image and Video Encryption", *The Visual Computer*, 2026.
+
+## 🔹 Dependencies
+
+Install the required packages:
+
+```bash
+pip install torch torchvision pillow numpy matplotlib opencv-python
+namics for High-Security Image and Video Encryption", *The Visual Computer*, 2026.
 
 
