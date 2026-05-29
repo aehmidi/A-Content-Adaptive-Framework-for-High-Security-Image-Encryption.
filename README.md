@@ -70,9 +70,6 @@ Chaos map is selected deterministically based on the deep key.
 - GPU usage is highly recommended for faster key generation and encryption
 
 
-## 🔬 References
-H. Alaeddine, "Deep Content-Driven Key Generation via CNN–Transformer Fusion with Multi-Chaotic Dynamics for High-Security Image and Video Encryption", *The Visual Computer*, 2026.
-
 ## 🔹 Dependencies
 
 Install the required packages:
